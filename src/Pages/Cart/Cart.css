@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Title {
+  font-family: "Playfair Display", serif;
+  margin-top: 50px;
+}
+
+.cartItem {
+  width: 700px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  margin: 30px;
+}
+
+.cartItem img {
+  width: 200px;
+  padding-left: 20px;
+}
+
+.cartItem .description {
+  /* width: 100px; */
+  font-size: 20px;
+  margin-left: 50px;
+}
+
+.cartItem .description .TitleFont {
+  font-size: 25px !important;
+}
+
+.countHandler input {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.countHandler button {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(19, 19, 19);
+  color: white;
+  border: none;
+}
+
+.checkout button {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(19, 19, 19);
+  color: white;
+  border: none;
+  border-radius: 0px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.checkout .total {
+  color: red;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+#divCenter {
+  position: absolute;
+  top: 55%;
+  transform: translate(0, -50%);
+  padding: 10px;
+}
